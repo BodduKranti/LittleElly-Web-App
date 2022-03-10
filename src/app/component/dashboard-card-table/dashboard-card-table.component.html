@@ -1,0 +1,36 @@
+
+
+<div class="col mb-4">
+
+    <div class="tableSection shadow" [ngSwitch]="tableTitle">        
+        <div class="tableSectionTitle">{{tableTitle}}</div>
+        <div class="tableBottomSection">
+            <!--Bounched Cheques-->
+            <div *ngSwitchCase="'Bounched Cheques'">
+                <app-bounched-cheques></app-bounched-cheques>
+            </div>
+
+            <!--Today PDC-->
+            <div *ngSwitchCase="'Today PDC'">
+                <app-today-pdc></app-today-pdc>
+            </div>
+
+            <!--Leave Application-->
+            <div *ngSwitchCase="'Leave Application'">
+                <app-leave-application-dashboard></app-leave-application-dashboard>
+            </div>
+
+            <!--Today Enquiry-->
+            <div *ngSwitchCase="'Today Enquiry'">
+                <app-today-enquiry></app-today-enquiry>
+            </div>
+
+            <!--Today Birthday-->
+            <div *ngSwitchCase="'Today Birthday'">
+               <app-today-birthday></app-today-birthday>
+            </div>
+            
+        </div>
+        
+    </div>
+</div>
