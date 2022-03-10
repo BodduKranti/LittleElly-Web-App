@@ -19,6 +19,7 @@ import { TodayBirthdayComponent } from './component/Dashboard/today-birthday/tod
 import { LeaveApplicationDashboardComponent } from './component/Dashboard/leave-application-dashboard/leave-application-dashboard.component';
 import { TopHeaderComponent } from './component/top-header/top-header.component';
 import { AlertComponent } from './component/alert/alert.component';
+import { FormComponent } from './component/form/form.component';
 
 
 
@@ -42,7 +43,8 @@ import { AlertComponent } from './component/alert/alert.component';
     TodayBirthdayComponent,
     LeaveApplicationDashboardComponent,
     TopHeaderComponent,
-    AlertComponent
+    AlertComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,

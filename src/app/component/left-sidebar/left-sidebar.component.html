@@ -1,6 +1,6 @@
 <app-profile></app-profile>
 
-<ul class="navLinks">
+<ul class="navLinks pb-5">
     <li>
         <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]={exact:true}>
             <i>
@@ -40,5 +40,30 @@
             </i>
             <span>attendance</span>
         </a>
+    </li>
+
+    <li>
+        <div class="col-12">
+            <div>
+                <a class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                    aria-controls="collapseOne">
+                    <i class="bi bi-bezier"></i>
+                    <span>Components</span>
+                </a>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <a routerLink="component/alert" routerLinkActive="active">
+                        <i class="bi bi-exclamation-triangle"></i>
+                        <span>Alert</span>
+                    </a>
+
+                    <a routerLink="component/form" routerLinkActive="active">
+                        <i class="bi bi-ui-checks"></i>
+                        <span>form</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
     </li>
 </ul>

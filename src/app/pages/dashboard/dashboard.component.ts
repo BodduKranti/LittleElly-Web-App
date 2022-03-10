@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DashboardComponent implements OnInit {
 
+
+  //this cards are use in component>dashboard-card-table>dshboard-cards-table.component.html
   card1:string='Bounched Cheques';
   card2:string='Today PDC';
   card3:string='Leave Application';
