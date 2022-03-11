@@ -20,6 +20,9 @@ import { LeaveApplicationDashboardComponent } from './component/Dashboard/leave-
 import { TopHeaderComponent } from './component/top-header/top-header.component';
 import { AlertComponent } from './component/alert/alert.component';
 import { FormComponent } from './component/form/form.component';
+import { CardTemlateComponent } from './component/card-temlate/card-temlate.component';
+import { ModalComponent } from './component/modal/modal.component';
+import { ListGroupComponent } from './component/list-group/list-group.component';
 
 
 
@@ -44,7 +47,10 @@ import { FormComponent } from './component/form/form.component';
     LeaveApplicationDashboardComponent,
     TopHeaderComponent,
     AlertComponent,
-    FormComponent
+    FormComponent,
+    CardTemlateComponent,
+    ModalComponent,
+    ListGroupComponent
   ],
   imports: [
     BrowserModule,
